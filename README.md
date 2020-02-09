@@ -18,8 +18,13 @@
 - webpack 
 - webpack-dev-server
 - webpack-cli
-- babel-core 
+<!-- - babel-core 
 - babel-loader 
 - babel-preset-env 
-- babel-preset-react 
+- babel-preset-react  -->
+- @babel/core
+- @babel/plugin-transform-runtime
+- @babel/preset-env
+- @babel/preset-react
+- babel-polyfill
 - html-webpack-plugin 
