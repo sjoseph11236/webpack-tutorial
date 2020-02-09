@@ -9,7 +9,7 @@ module.exports = {
   // Output deals with where the complied code goes. It add it into a bundle file located in the dist folder.
   output: {
     path: path.join(__dirname, '/dist'),
-    fileName: 'index_bundle.js'
+    filename: 'index_bundle.js'
   },
   // Specifiy loader
   module: { 
